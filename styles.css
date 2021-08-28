@@ -1,13 +1,27 @@
-* {
-    font-size: 20px;
+body {
+    background-color: lightblue;
 }
 
-nav {
+section {
+    font-size: 30px;
+    padding-left: 25vw;
+}
+
+#navbar {
     background-color:lightgreen;
-    position: fixed;
+    font-size: 25px;
+    position:fixed;
+    height: 100vh;
+    margin:-37px 0px 0px -7px;
   }
 
-section {
-    font-size:20px;
-    /*height:100vh;*/
-  }
+#navbar a {
+    color: black;
+    text-decoration: none;
+    border-style: solid;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: cyan;
+    }
